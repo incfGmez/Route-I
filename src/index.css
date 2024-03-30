@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Estilos navbar*/
+.navbar{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar > p{
+  margin-right: 20px;
+  color: white;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+ul{
+  list-style: none;
+}
+.link-react{
+  text-decoration: none;
+  color: white;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  color: white;
+  font-size: 12px;
+}
+/*Estilos contacto*/
+.contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-correo{
+  width: 500px;
+}
+.input-descripcion{
+  width: 500px;
+  height: 100px;
+}
+.btn-enviar{
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 7px;
+  width: 60px;
+  height: 30px;
+}
+/*Estilos Home*/
+.container-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.saludo-home{
+  margin-top: 40px;
+  text-align: center;
+}
+.saludo-home > p{
+  font-size: smaller;
+}
+img{
+  width: 200px;
+  height: auto;
+}
